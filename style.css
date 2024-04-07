@@ -1,0 +1,103 @@
+/*
+   ==========================================================================
+   Project Name: 
+   Description: 
+   Author: 
+   Version: 
+   License: 
+   ==========================================================================
+*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Anchor Styling */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* List Styling */
+ul, ol {
+    list-style: none;
+}
+/* Display Styling */
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+/* Add your custom styles below */
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color:aliceblue;
+    padding-top: 1rem;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.btn-group button{
+    padding:0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-radius: 7px;
+    border:none;
+    outline: none;
+    /* flex:1; */
+    cursor:pointer;
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.head{
+    font-size: 4rem;
+}
+.value{
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 600px) {
+   .head{
+    font-size: 2rem;
+   }
+   .value{
+    font-size: 1rem;
+   }
+  }

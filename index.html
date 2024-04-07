@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="btn-group">
+            <button id="hex" onclick="setColorMode('hex')">HEX Color</button>
+            <button id="rgb" onclick="setColorMode('rgb')">RGB Color</button>
+            <button id="createColor" onclick="createColorFun()">Generate Color</button>
+        </div>
+        <div class="main">
+                <div class="head">
+                    <span id="colorMode">HEX</span> Color
+                </div>
+                <div class="value" id="value">
+                    #333333
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
